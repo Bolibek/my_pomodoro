@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Kumbh Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-swap: swap;
+    src: url("../fonts/kumbh-sans-v11-latin-regular.woff2") format("woff2"),
+      url("../fonts/kumbh-sans-v11-latin-regular.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Kumbh Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-swap: swap;
+    src: url("../fonts/kumbh-sans-v11-latin-700.woff2") format("woff2"),
+      url("../fonts/kumbh-sans-v11-latin-700.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 400;
+    font-swap: swap;
+    src: url("../fonts/roboto-slab-v23-latin-regular.woff2") format("woff2"),
+      url("../fonts/roboto-slab-v23-latin-regular.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Roboto Slab";
+    font-style: normal;
+    font-weight: 700;
+    font-swap: swap;
+    src: url("../fonts/roboto-slab-v23-latin-700.woff2") format("woff2"),
+      url("../fonts/roboto-slab-v23-latin-700.woff") format("woff");
+  }
+  @font-face {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-swap: swap;
+    src: url("../fonts/space-mono-v11-latin-regular.woff2") format("woff2"),
+      url("../fonts/space-mono-v11-latin-regular.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-swap: swap;
+    src: url("../fonts/space-mono-v11-latin-700.woff2") format("woff2"),
+      url("../fonts/space-mono-v11-latin-700.woff") format("woff");
+  }
+  h1 {
+    @apply text-xl;
+  }
+
+  h2 {
+    @apply text-lg;
+  }
+
+  h3 {
+    @apply text-base;
+  }
+
+  h4 {
+    @apply text-xl;
+  }
+
+  button {
+    @apply font-bold text-gray text-sm px-4 py-3 rounded-full;
+  }
+}
